@@ -22,3 +22,8 @@ Route::get('/products/{id}', [ProductController::class, 'show']);
  * URL: /api/products/{id}/owner
  */
 Route::get('/products/{id}/owner', [ProductController::class, 'showWithOwner']);
+Route::get('/products', [ProductController::class, 'index']);
+Route::patch('/products/{id}/reduce', [ProductController::class, 'reduceStock']);
+Route::post('/products', [ProductController::class, 'store']);
+Route::put('/products/{id}', [ProductController::class, 'update']);
+Route::delete('/products/{id}', [ProductController::class, 'destroy']);
