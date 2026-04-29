@@ -1,0 +1,12 @@
+=== UTS INTEGRASI APLIKASI ENTERPRISE ===
+
+Nama Anggota: [Isi Nama Anda]
+NIM: [Isi NIM Anda]
+
+Modul: OrderService (Port 8003)
+Link GitHub: https://github.com/Qwerty1508/UTS-IAE
+Link Video Demo: [Isi Link Video]
+
+Keterangan:
+OrderService berhasil terintegrasi dengan UserService (8001) dan ProductService (8002).
+Semua kriteria (Provider, Consumer, JSON Contract, Error Handling) telah terpenuhi.
